@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,84 +8,101 @@
     <title>Home</title>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    
+
 </head>
+
 <body>
-<!-- main container -->
-<div class="main_c">
-<!--header container-->
-<header class="header_top">
-    <div class="logo">StackOverflow-lite</div>
-          <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">My Account</button>
-                    <div id="accountDropdown" class="dropdown-content">
-                            <a href="profile.html">My Profile</a>
-                        <a href="login.html">Logout</a>
-                      
-                      
+
+    <section id="space"></section>
+    <!-- main container -->
+    <section id="body">
+        <section id="sidemenuSection">
+            <!--Start sidebar -->
+            <div class="menu-container">
+
+                <!-- Start of the menu -->
+                <div class="menu nav-head">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <font>Home</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html" class="active">
+                                <font>All Questions</font>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="myqns.html">
+                                <font>My Questions</font>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr id="line" />
+                    <div id="recent">
+                        Recent
                     </div>
 
+                    <a href="recent.html">View all</a>
 
-    </header> 
 
-
-</div>
-<div class="qns_container">
-
-        <div class="qns">
-        <div class="ask_qn">
-            
-            <div class="qun_content">
-                    <div class="h3">No Questions</div>
-                    
-                            </div>
-        </div>
-        
-        
-        </div>
-       
-        
-        </div>
-
-  <!--Start sidebar -->
-  <div class="menu-container" >
-        
-     <!-- Start of the menu -->
-        <div class="menu nav-head">
-        <ul>
-            <li><a href="index.html" class="active"> <font>Home</font></a></li>
-            <li><a href="questions.html"> <font>All Questions</font></a></li>
-            <li><a href="myqns.html"> <font>My Questions</font></a></li>
-              </ul>
-            <hr id="line"/>
-            <div id="recent">
-                    Recent
-            </div>
-
-            <br><br><br><br>
-            <a href="recent.html">View all</a>
-
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
                     <div class="col-lg-6">
                         <div id="questionList">
 
                         </div>
- 
+
+                    </div>
+                    <!-- End of Menu -->
                 </div>
-<!-- End of Menu -->
+
+
+            </div>
+
+            <!--End sidebar -->
+            <!---->
+            <!---->
+        </section>
+        <section id="mainParts">
+            <div class="qns_container">
+
+                <div class="qns">
+                    <div class="ask_qn">
+
+                        <div class="qun_content">
+                            <div class="h3">No Questions</div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!--Header-->
+    <header class="header_top">
+        <h3 class="logo">StackOver flow-lite</h3>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">My Account</button>
+            <div onclick="myFunction()" class="iconButton">
+                <font>M</font>
+            </div>
+            <div id="accountDropdown" class="dropdown-content">
+                <a href="profile.html">My Profile</a>
+                <a href="login.html">Logout</a>
+            </div>
         </div>
-       
-      
-  </div>
-
-<!--End sidebar -->
-<!---->
-<!---->
+    </header>
 
 
-
-</div> 
-    
 </body>
+
 </html>
