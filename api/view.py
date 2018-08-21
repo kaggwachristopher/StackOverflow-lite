@@ -6,6 +6,10 @@ app=Flask('__name__')
 all_questions_list= []
 answers=[]
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({'message': 'API endpoint, type /api/v1/questions to get all questions'})
+
 @app.route('/api/v1/questions',methods=['POST'])
 def  post_a_question():  
     data = request.get_json()    
