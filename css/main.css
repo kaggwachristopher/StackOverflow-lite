@@ -10,14 +10,10 @@
     
     .header_top {
         background-color: grey;
-        /*margin: -8px -20px;
-    /* height: 66px; */
         text-align: left;
         font-size: 27px;
         font-family: monospace;
         color: white;
-        /*line-height: 47px; */
-        /*  vertical-align: middle; */
         position: fixed;
         top: 0px;
         width: -webkit-fill-available;
@@ -45,7 +41,6 @@
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
-    /* Links inside the dropdown */
     
     .dropdown-content a {
         color: black;
@@ -170,16 +165,8 @@
     }
     
     .menu-container {
-        /*    position: fixed; */
         width: 100%;
     }
-    /* #questions_button {
-    padding: 10px 20px;
-    background: black;
-    color: white;
-    border-radius: 20px;
-    margin-left: 36%;
-} */
     
     #col1,
     #col2 {
@@ -204,7 +191,6 @@
     }
     
     .container {
-        /* position: fixed; */
         display: inline-block;
         width: 95%;
     }
@@ -291,7 +277,6 @@
     }
     
     .feedBack {
-        /*  background-color: tomato; */
     }
     
     .feedBack div {
@@ -350,50 +335,3 @@
         margin-left: 9px;
         margin-right: 9px;
     }
-    /*
-.qun_content {
-    margin: 91px 213px;
-}
-
-.qns {
-    border-bottom: 0px solid grey;
-    width: 607px;
-    background: #c5c5d0;
-    margin: 58px 239px;
-    height: -webkit-fill-available;
-}
- */
-    /* textarea.ask_form {
-    line-height: 20px;
-    font-size: 17px;
-    border-radius: 7px;
-} */
-    /*
-input.ask_btn {
-    float: right;
-    font-size: 31px;
-    border-color: transparent;
-    margin: -1px 2px;
-    background: blue;
-    color: white;
-}
-
-a {
-    color: blue;
-}
-
-.question {
-    color: #ccc;
-    background-color: #000;
-    margin-left: -210px;
-    margin-right: -207px;
-    height: fit-content;
-    visibility: hidden;
-}
- */
-    /* .form {
-    position: relative;
-    width: 90%;
-    margin-left: 25px;
-    border-radius: 8px;
-} */
