@@ -7,84 +7,133 @@
     <title>My Questions</title>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    
 </head>
 <body>
-<!-- main container -->
-<div class="main_c">
-<!--header container-->
-<header class="header_top">
-    <div class="logo">StackOverflow-lite</div>
-          <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn">My Account</button>
-                    <div id="accountDropdown" class="dropdown-content">
-                            <a href="profile.html">My Profile</a>
-                        <a href="login.html">Logout</a>
-                      
-                      
+    <section id="space"></section>
+    <!-- main container -->
+    <section id="body">
+        <section id="sidemenuSection">
+            <!--Start sidebar -->
+            <div class="menu-container">
+                <!-- Start of the menu -->
+                <div class="menu nav-head">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html">
+                                All Questions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="myqns.html" class="active">
+                                My Questions
+                            </a>
+                        </li>
+                    </ul>
+                    <hr id="line" />
+                    <div id="recent">
+                        Recent
                     </div>
-
-
-    </header> 
-
-
-</div>
-<div class="qns_container">
-
-        <div class="qns">
-        <div class="ask_qn">
-            
-            <div class="qun_content">
-                    <div class="h3">No Questions</div>
-                    
-                            </div>
-        </div>
-        
-        
-        </div>
-       
-        
-        </div>
-
-  <!--Start sidebar -->
-  <div class="menu-container" >
-        
-     <!-- Start of the menu -->
-        <div class="menu nav-head">
-        <ul>
-            <li><a href="index.html" class="active"> <font>Home</font></a></li>
-            <li><a href="questions.html"> <font>All Questions</font></a></li>
-            <li><a href="myqns.html"> <font>My Questions</font></a></li>
-              </ul>
-            <hr id="line"/>
-            <div id="recent">
-                    Recent
-            </div>
-
-            <br><br><br><br>
-            <a href="recent.html">View all</a>
-
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="recent.html">View all</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <div class="col-lg-6">
                         <div id="questionList">
-
                         </div>
- 
+                    </div>
+                    <!-- End of Menu -->
                 </div>
-<!-- End of Menu -->
+            </div>
+            <!--End sidebar -->
+            <!---->
+            <!---->
+        </section>
+        <section id="mainParts">
+            <div class="qns_container padded">
+                <div class="qns">
+                    <div class="ask_qn">
+                        <div class="qun_content">
+                            <ul>
+                                <li>
+                                    <hr/>
+                                    <div class="question">
+                                        <div class="qn_header">
+                                            <h4>Rats and Cats</h4>
+                                            <b>
+                                                <small>By:</small>Isakiye Afasha</b>
+                                            <p>&nbsp;</p>
+                                        </div>
+                                        <br/>
+                                        <p>Is it possible a rat can kill a cat?</p>
+                                        <small>
+                                            posted on 15/July/2018
+                                        </small>
+                                        <div class="feedBack">
+                                            <div onclick="openReply();" class="Reply">
+                                                <textarea class="replyText 1" placeholder="Reply..."></textarea>
+                                                <button class="replyButton">Reply</button>
+                                            </div>
+                                            <div class="right">
+                                                <small>45 Replies</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <hr/>
+                                    <div class="question">
+                                        <h4>Sugar</h4>
+                                        <p>I was in the meeting with champions at smartup factory but most of them were complaing about sugar !!Why</p>
+                                        <small>
+                                            <font>posted on Now</font>
+                                            <font>0</font> Replies
+                                        </small>
+                                        <div class="question_buttons">
+                                            <button class="replyButton 2">Reply</button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--Header-->
+    <header class="header_top">
+        <h3 class="logo">StackOver flow-lite</h3>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">My Account</button>
+            <div onclick="myFunction()" class="iconButton">
+                <font>M</font>
+            </div>
+            <div id="accountDropdown" class="dropdown-content">
+                <a href="profile.html">My Profile</a>
+                <a href="login.html">Logout</a>
+            </div>
         </div>
-       
-      
-  </div>
-
-<!--End sidebar -->
-<!---->
-<!---->
-
-
-
-</div> 
-    
+    </header>
 </body>
 </html>
