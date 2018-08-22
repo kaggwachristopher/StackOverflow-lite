@@ -1,4 +1,4 @@
-function myFunction() {
+function my_account_button_action() {
     document.getElementById("accountDropdown").classList.toggle("show");
 }
 
